@@ -1,0 +1,51 @@
+# Виртуальные окружения Python
+venv/
+env/
+ENV/
+new_venv/
+virtualenv/
+.env
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Файлы логов
+logs/
+*.log
+
+# Временные файлы
+temp/
+tmp/
+
+# Директории IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Windows specific
+*:Zone.Identifier
+*.Zone.Identifier
+
+# Базы данных (не добавляем действующие базы, только схемы)
+db/*.db
+db/*.sqlite
+db/*.sqlite3
+# Но включаем файлы схем
+!db/schema/
+
+# Настройки и другие локальные файлы
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Резервные копии
+*.bak
+*.backup
+*~
