@@ -143,10 +143,3 @@ python check_voices.py
 ```bash
 python test_tts.py
 ```
-
-## Контакты для поддержки
-
-Если вы не смогли решить проблему с помощью этого руководства, обратитесь к разработчику:
-
-- Email: support@example.com
-- Telegram: @support_bot
